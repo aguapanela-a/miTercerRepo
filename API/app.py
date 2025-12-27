@@ -39,3 +39,8 @@ def get_warriors_got():
 def get_southpark_characters():
     rows = ["Stan", "Kyle", "Cartman", "Kenny", "Butters", "Timmy", "Tweek", "Bebe"]
     return rows
+
+@app.get("/simpsonsCharacters")
+def get_simpsons_characters():
+    rows = ["Homero", "Marge", "Bart", "Lisa", "Maggie", "Ned Flanders", "Sr. Burns", "Krusty"]
+    return rows
